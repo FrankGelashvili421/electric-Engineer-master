@@ -9,7 +9,6 @@ export const WelcomeSection = () =>{
             <div className='Welcome'>
                 <h1>იცხოვრე მშვიდად!</h1>
                 <h4>როდესაც იცი რომ ელექტროობა სანდო ხელშია</h4>
-                <h5>ჩემთან ელექტროობა უმაღლესი ხარისხია</h5>
             </div>
         </section>
     )
