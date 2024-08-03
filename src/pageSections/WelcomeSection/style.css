@@ -1,0 +1,87 @@
+.WelcomeSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+}
+.WelcomeSection img{
+    height: 106vh;
+    width: 60%;
+}
+.Welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6482AD;
+    width: 100%;
+    color: #fefefe;
+    gap: 30px;
+    padding: 150px;
+}
+.Welcome h1{
+    font-size: 60px;
+}
+.Welcome h4{
+    font-size: 30px;
+}
+.Welcome h5{
+    font-size: 20px;
+}
+@media screen and (max-width:1700px) {
+    
+    .Welcome{
+        padding: 110px;
+    }
+    .Welcome h1{
+        font-size: 50px;
+    }
+}
+@media  screen and (max-width:1580px) {
+
+    .Welcome{
+        padding: 0;
+    }
+    .WelcomeSection img{
+        width: 50%;
+    }
+    .Welcome h4{
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .WelcomeSection{
+        background-image: url('../../assests/guy\ standin\ \(3\).jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .WelcomeSection img{
+        display: none;
+    }
+    .Welcome{
+        color: rgb(250, 227, 196);
+        background-color: rgba(0, 0, 0, 0.281);
+    }
+    
+    .Welcome h1{
+        font-size: 40px;
+    }
+    .Welcome h4{
+        font-size: 19px;
+    }
+    .Welcome h5{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:800px) {
+    .ResponsiveON{
+        display: block;
+    }
+    .ResponsiveOFF{
+        display: none;
+    }
+}
